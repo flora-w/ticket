@@ -1,0 +1,28 @@
+{
+  "code": 1, 
+  "message": "", 
+  "data": [
+      {
+          "SequenceID": "P81F001201812250002", 
+          "SerialID": "P81F0012018122519050210004048", 
+          "Name": "普通机票申请", 
+          "ApplyDatetime": "2018-12-25T19:05:02.33", 
+          "Status": "待报价", 
+          "Place": "大陸", 
+          "Remark": "3123", 
+          "QuoteTime": "2019-01-15T07:35:22", 
+          "TicketTime": null
+      }, 
+      {
+          "SequenceID": "P81F001201812250003", 
+          "SerialID": "P81F0012018122519235610004048", 
+          "Name": "普通机票申请", 
+          "ApplyDatetime": "2018-12-25T19:23:56.587", 
+          "Status": "待报价", 
+          "Place": "大陸", 
+          "Remark": "3123", 
+          "QuoteTime": "2019-01-15T07:35:22", 
+          "TicketTime": null
+      }
+  ]
+}

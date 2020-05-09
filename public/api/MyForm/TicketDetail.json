@@ -1,0 +1,110 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "FlowDetail": {
+            "SequenceID": "P81F001201902150001",
+            "SerialID": "P81F00120190215155719K16070452",
+            "FormID": null,
+            "FormName": "普通机票申请",
+            "ApplyDateTime": "2019/2/15 下午 03:57:20",
+            "ApplyName": "孙燏勃",
+            "StepName": "已出票",
+            "ToBeSignedID": null,
+            "ToBeSignedName": null
+        },
+        "FormDetail": {
+            "FormID": null,
+            "SerialID": null,
+            "TravelTypeName": "出差",
+            "Remark": "test",
+            "OFileName": null
+        },
+        "TravelDetail": [
+            {
+                "Detail": [],
+                "Price": [
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "高雄",
+                        "ArriveAirport": "重慶",
+                        "FlyNo": "228",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "310.0000",
+                        "ClassType": null
+                    }
+                ],
+                "Empno": "K16070452",
+                "Chname": "孙燏勃",
+                "TripType": "oneWay"
+            },
+            {
+                "Detail": [],
+                "Price": [
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "松山",
+                        "ArriveAirport": "桃園",
+                        "FlyNo": "337",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "300.0000",
+                        "ClassType": null
+                    },
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "桃園",
+                        "ArriveAirport": "松山",
+                        "FlyNo": "338",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "300.0000",
+                        "ClassType": null
+                    }
+                ],
+                "Empno": "K16070452",
+                "Chname": "孙燏勃",
+                "TripType": "twoWay"
+            },
+            {
+                "Detail": [],
+                "Price": [
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "松山",
+                        "ArriveAirport": "桃園",
+                        "FlyNo": "337",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "300.0000",
+                        "ClassType": null
+                    },
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "桃園",
+                        "ArriveAirport": "松山",
+                        "FlyNo": "338",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "300.0000",
+                        "ClassType": null
+                    },
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 0,
+                        "StartAirport": "桃園",
+                        "ArriveAirport": "松山",
+                        "FlyNo": "338",
+                        "FlyTime": "2019/2/28 下午 06:32:00",
+                        "Cost": "300.0000",
+                        "ClassType": null
+                    }
+                ],
+                "Empno": "K16070452",
+                "Chname": "孙燏勃",
+                "TripType": "manyWay"
+            }
+        ]
+    }
+}

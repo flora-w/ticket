@@ -1,0 +1,19 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "RCList": [
+            {
+                "SequenceID": "P81F001201901150001",
+                "SerialID": "P81F0012019011519144810604121",
+                "FormID": null,
+                "FormName": null,
+                "ApplyDateTime": "2019/1/15 下午 07:14:48",
+                "ApplyName": null,
+                "StepName": null,
+                "ToBeSignedID": "T01",
+                "ToBeSignedName": "昆山1旅行社"
+            }
+        ]
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "UserInfo": [
+            {
+                "Empno": "K16070452",
+                "ChName": "孙燏勃",
+                "EnName": "SEMON SUN",
+                "Deptcode": "MEL120"
+            }
+        ],
+        "Type": [
+            {
+                "CategoryCode": "Q1",
+                "CategoryName": "出差",
+                "ParmCode": "",
+                "ParmValue": ""
+            },
+            {
+                "CategoryCode": "Q2",
+                "CategoryName": "返台述職",
+                "ParmCode": "C01",
+                "ParmValue": "本人"
+            },
+            {
+                "CategoryCode": "Q2",
+                "CategoryName": "返台述職",
+                "ParmCode": "C02",
+                "ParmValue": "眷属"
+            },
+            {
+                "CategoryCode": "Q2",
+                "CategoryName": "返台述職",
+                "ParmCode": "C03",
+                "ParmValue": "五年条款"
+            },
+            {
+                "CategoryCode": "Q3",
+                "CategoryName": "特殊訂票",
+                "ParmCode": "",
+                "ParmValue": ""
+            },
+            {
+                "CategoryCode": "Q4",
+                "CategoryName": "殤假/急難返國",
+                "ParmCode": "C04",
+                "ParmValue": "殤假"
+            },
+            {
+                "CategoryCode": "Q4",
+                "CategoryName": "殤假/急難返國",
+                "ParmCode": "C05",
+                "ParmValue": "急難返國"
+            },
+            {
+                "CategoryCode": "Q5",
+                "CategoryName": "補單",
+                "ParmCode": "",
+                "ParmValue": ""
+            },
+            {
+                "CategoryCode": "Q6",
+                "CategoryName": "離職/歸仁/轉調",
+                "ParmCode": "C06",
+                "ParmValue": "離職"
+            },
+            {
+                "CategoryCode": "Q6",
+                "CategoryName": "離職/歸仁/轉調",
+                "ParmCode": "C07",
+                "ParmValue": "歸任"
+            },
+            {
+                "CategoryCode": "Q6",
+                "CategoryName": "離職/歸仁/轉調",
+                "ParmCode": "C08",
+                "ParmValue": "轉調"
+            }
+        ],
+        "Danhao": {
+            "ChaiLv": [],
+            "FanTai": []
+        },
+        "Place": [
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "PRC",
+                "ParmValue": "大陸"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "TW",
+                "ParmValue": "台灣"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "Abroad",
+                "ParmValue": "國外"
+            }
+        ],
+        "Airport": [
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P001",
+                "ParmValue": "浦東"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P002",
+                "ParmValue": "虹橋"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P003",
+                "ParmValue": "桃園"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P004",
+                "ParmValue": "松山"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P005",
+                "ParmValue": "台中"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P006",
+                "ParmValue": "高雄"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P007",
+                "ParmValue": "中山"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P008",
+                "ParmValue": "成都"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P009",
+                "ParmValue": "重慶"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": "P010",
+                "ParmValue": "無錫"
+            }
+        ],
+        "Nationality": [
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": null,
+                "ParmValue": "中國"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": null,
+                "ParmValue": "美國"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": null,
+                "ParmValue": "英國"
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": null,
+                "ParmCode": null,
+                "ParmValue": "菲律賓"
+            }
+        ],
+        "CardType": [
+            {
+                "CategoryCode": null,
+                "CategoryName": "身份證",
+                "ParmCode": null,
+                "ParmValue": null
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": "台胞證",
+                "ParmCode": null,
+                "ParmValue": null
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": "護照",
+                "ParmCode": null,
+                "ParmValue": null
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": "大陸居民往來台灣通行證",
+                "ParmCode": null,
+                "ParmValue": null
+            },
+            {
+                "CategoryCode": null,
+                "CategoryName": "港澳通行證",
+                "ParmCode": null,
+                "ParmValue": null
+            }
+        ]
+    }
+}

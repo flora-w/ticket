@@ -1,0 +1,15 @@
+{   
+    "SerialID": "P81F0012019011519144810604121",
+    "User_id": "10604121",
+    "Remark": "Remark",
+    "ReturnID": "1,2,3",
+    "ChangeDetail": [
+            {
+            "RepUID": 2,
+            "StartDate": "2019-03-17",
+            "StartTime": "07:06",
+            "EndTime": "13:06",
+            "Car": "Y"
+            }
+        ]
+}

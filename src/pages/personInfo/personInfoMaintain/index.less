@@ -1,0 +1,145 @@
+.person-info-maintain{
+  margin-bottom: 10px;
+  .submit-btn{
+    text-align: center;
+    margin-top: 50px;
+    button{
+      background: #21ba45;
+      color: #fff;
+      width: 100px;
+    }
+  }
+  .b{
+      display: inline-block;
+      width: 75px;
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      text-align: right;
+   }
+   .select{
+    width: 130px;
+    margin-left: 10px;
+  }
+  .input{
+    width: 130px;
+    margin-left: 10px;
+  }
+  .textArea{
+    width: 370px;
+    margin-left: 10px;
+  }
+  .button{
+    margin-left: 20px;
+  }
+  .person-info{
+    &>div{
+      margin: 10px 0;
+      b{
+        .b;
+      }
+      &>span{
+        display: inline-block;
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      .area{
+        width: 130px;
+        margin-left: 10px;
+      }
+    }
+    .en-length{
+      width: 180px;
+    }
+  }
+  .VIP-and-hobby{
+    b{
+      .b;
+    }
+    &>div{
+      margin: 10px 0;
+    }
+    select{
+      .select;
+    }
+    input{
+      .input;
+    }
+    textArea{
+      .textArea;
+    }
+    button{
+      .button;
+    }
+    &>div:last-child{
+      float: left;
+      &>b{ float: left;}
+    }
+    ul{
+      padding-left: 30px;
+      width: 600px;
+      li{
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        &:hover{
+          background: rgb(197, 216, 194);
+          color: #fff;
+        }
+        &:first-child{
+          color: #fff;
+          font-weight: bold;
+          background: lightblue;
+        }
+        &>span:first-child{
+          display: inline-block;
+          width: 200px;
+        }
+        &>span:nth-child(2){
+          display: inline-block;
+          width: 300px;
+        }
+        i{
+          // padding-right: 20px;
+          color: red;
+          cursor: pointer;
+          &:hover{
+            text-shadow: 0 0 1px red;
+          }
+        }
+      }
+      
+    }
+  }
+  .card-info{
+    &>div{
+      margin: 5px 0;
+    }
+    b{
+      .b;
+      width: 150px
+    }
+    .select{
+      width: 200px;
+    }
+    .input{
+      .input;
+    }
+    textArea{
+      .textArea;
+    }
+    .newAdd{
+      margin: 10px 0 0 100px;
+    }
+    .ant-table-body{
+      margin: 0;
+      th{
+        background: lightblue !important;
+      }
+    }
+    
+    
+  }
+}

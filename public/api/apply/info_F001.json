@@ -1,0 +1,166 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "UserInfo": [
+            {
+                "Empno": "10604121",
+                "ChName": "黃文毅",
+                "EnName": "WAYNE HUANG",
+                "Deptcode": "5D2A00",
+                "JobName": null,
+                "HireDate": "0001-01-01T00:00:00",
+                "BirthDate": "0001-01-01T00:00:00",
+                "Sex": null,
+                "Phone": null,
+                "Mail": null
+            }
+        ],
+        "Type": [
+            {
+                "Vice": [],
+                "Code": "Q1",
+                "Name": "出差"
+            },
+            {
+                "Vice": [
+                    {
+                        "ViceCode": "C01",
+                        "ViceName": "本人"
+                    },
+                    {
+                        "ViceCode": "C02",
+                        "ViceName": "眷属"
+                    },
+                    {
+                        "ViceCode": "C03",
+                        "ViceName": "五年条款"
+                    }
+                ],
+                "Code": "Q2",
+                "Name": "返台述職"
+            },
+            {
+                "Vice": [],
+                "Code": "Q3",
+                "Name": "特殊訂票"
+            },
+            {
+                "Vice": [],
+                "Code": "Q4",
+                "Name": "殤假/急難返國"
+            },
+            {
+                "Vice": [],
+                "Code": "Q5",
+                "Name": "補單"
+            },
+            {
+                "Vice": [],
+                "Code": "Q6",
+                "Name": "離職/歸仁/轉調"
+            }
+        ],
+        "Danhao": {
+            "ChaiLv": [
+                {
+                    "Code": "SL18120450",
+                    "Name": "1",
+                    "Value": "MEL120"
+                }
+            ],
+            "FanTai": [
+                {
+                    "Code": "SL18120450",
+                    "Name": "1",
+                    "Value": "MEL120"
+                }
+            ]
+        },
+        "Place": [
+            {
+                "Code": "PRC",
+                "Value": "大陸"
+            },
+            {
+                "Code": "TW",
+                "Value": "台灣"
+            },
+            {
+                "Code": "Abroad",
+                "Value": "國外"
+            }
+        ],
+        "Airport": [
+            {
+                "Code": "P001",
+                "Value": "浦東"
+            },
+            {
+                "Code": "P002",
+                "Value": "虹橋"
+            },
+            {
+                "Code": "P003",
+                "Value": "桃園"
+            },
+            {
+                "Code": "P004",
+                "Value": "松山"
+            },
+            {
+                "Code": "P005",
+                "Value": "台中"
+            },
+            {
+                "Code": "P006",
+                "Value": "高雄"
+            },
+            {
+                "Code": "P007",
+                "Value": "中山"
+            },
+            {
+                "Code": "P008",
+                "Value": "成都"
+            },
+            {
+                "Code": "P009",
+                "Value": "重慶"
+            },
+            {
+                "Code": "P010",
+                "Value": "無錫"
+            }
+        ],
+        "Family": [
+            {
+                "Empno": "10604121",
+                "ChName": "關麗榮",
+                "EnName": "GUAN LIRONG",
+                "Deptcode": null,
+                "JobName": null,
+                "HireDate": "0001-01-01T00:00:00",
+                "BirthDate": "0001-01-01T00:00:00",
+                "Sex": null,
+                "Phone": null,
+                "Mail": null
+            },
+            {
+                "Empno": "10604121",
+                "ChName": "黃煜恆",
+                "EnName": "HUANG YU-HENG",
+                "Deptcode": null,
+                "JobName": null,
+                "HireDate": "0001-01-01T00:00:00",
+                "BirthDate": "0001-01-01T00:00:00",
+                "Sex": null,
+                "Phone": null,
+                "Mail": null
+            }
+        ]
+    }
+}
+
+
+

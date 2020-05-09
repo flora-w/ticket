@@ -1,0 +1,19 @@
+{
+  "code": 1,
+  "message": "",
+  "data": [
+      {
+          "SequenceID": "P81F001201901150001",
+          "SerialID": "P81F0012019011519144810604121",
+          "Name": "普通机票申请",
+          "ApplyDatetime": "2019-01-15T19:14:48.56",
+          "Status": "订票完成",
+          "Place": null,
+          "Remark": null,
+          "QuoteTime": null,
+          "TicketTime": "2019-01-17T15:28:59.95",
+          "QuotedNum": "1",
+          "issubmit": "N"
+      }
+  ]
+}

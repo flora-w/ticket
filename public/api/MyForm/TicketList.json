@@ -1,0 +1,32 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "TicketFormList": [
+            {
+                "SequenceID": "P81F001201812250001",
+                "SerialID": "P81F0012018122514184010604121",
+                "FormID": null,
+                "FormName": "普通机票申请",
+                "ApplyDateTime": "2018/12/25 下午 02:18:39",
+                "ApplyName": "黃文毅",
+                "StepName": "已出票",
+                "ToBeSignedID": null,
+                "ToBeSignedName": null
+            }
+        ],
+        "RCFormList": [
+            {
+                "SequenceID": "P81F001201812250001",
+                "SerialID": "P81F0012018122514184010604121",
+                "FormID": null,
+                "FormName": "普通机票申请",
+                "ApplyDateTime": "2018/12/25 下午 02:18:39",
+                "ApplyName": "黃文毅",
+                "StepName": "退改簽完成",
+                "ToBeSignedID": null,
+                "ToBeSignedName": null
+            }
+        ]
+    }
+}

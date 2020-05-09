@@ -1,0 +1,41 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "head": {
+          "SequenceID": "P81F007201901220001",
+          "SerialID": null,
+          "Name": "退改簽",
+          "ApplyDatetime": null,
+          "Status": null,
+          "Place": "退票",
+          "Remark": "123",
+          "QuoteTime": null,
+          "TicketTime": null,
+          "QuotedNum": null,
+          "issubmit": null
+      },
+      "record": [
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 3,
+                      "RepUID": 1,
+                      "StartAirport": "虹橋",
+                      "ArriveAirport": "松山",
+                      "FlyNo": "A216",
+                      "FlyTime": "2019/1/16 00:50:00",
+                      "Cost": "960.0000",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "10604121",
+              "Chname": "黃文毅",
+              "Sex": "男",
+              "TripType": "oneWay"
+          }
+      ]
+  }
+}

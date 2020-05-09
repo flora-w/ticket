@@ -1,0 +1,63 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "head": {
+          "SequenceID": "P81F007201901220002",
+          "SerialID": null,
+          "Name": "退改簽",
+          "ApplyDatetime": null,
+          "Status": null,
+          "Place": "退票",
+          "Remark": "321",
+          "QuoteTime": null,
+          "TicketTime": null,
+          "QuotedNum": null,
+          "issubmit": null
+      },
+      "old": [
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 4,
+                      "RepUID": 4,
+                      "StartAirport": "桃園",
+                      "ArriveAirport": "台中",
+                      "FlyNo": "A343",
+                      "FlyTime": "2019/1/21 08:50:00",
+                      "Cost": "1360.0000",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "10604121-2",
+              "Chname": "黃煜恆",
+              "Sex": "男",
+              "TripType": "oneWay"
+          }
+      ],
+      "now": [
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 23,
+                      "RepUID": 13,
+                      "StartAirport": "桃園",
+                      "ArriveAirport": "台中",
+                      "FlyNo": "A318",
+                      "FlyTime": "2019/2/21 08:50:00",
+                      "Cost": "160.0000",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "10604121-2",
+              "Chname": "黃煜恆",
+              "Sex": "男",
+              "TripType": "oneWay"
+          }
+      ]
+  }
+}

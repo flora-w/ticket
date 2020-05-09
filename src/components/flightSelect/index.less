@@ -1,0 +1,121 @@
+.fill-flight{
+  background: #eee;
+  padding: 10px;
+  .items{
+    margin-bottom: 40px;
+    position: relative;
+    .line-kuang{
+      width: 75%;
+      height: 100px;
+      position: absolute;
+      left: 100px;
+      top: -10px;
+       border: 1px solid #1E90FF;
+       .xuhao{
+         position: absolute;
+         color: #fff;
+         width: 20px;
+         height: 20px;
+         background: #1E90FF;
+         left: -20px;
+         text-align: center;
+       }
+       .close{
+         display: inline-block;
+         width: 20px;
+         height: 20px;
+         text-align: center;
+         z-index: 999;
+         position: absolute;
+         top: 5px;
+         right: 8px;
+         cursor: pointer;
+         transition: 0.5s;
+         &:hover{
+          transform: rotate(360deg)
+         }
+       }
+    }
+  }
+  .add-flight-btn{
+    margin-top: -10px;
+    width: 82%;
+    padding: 2px 10px;
+    margin-left: 25px;
+    color: #1E90FF;
+    border: 1px dotted #ccc;
+    cursor: pointer;
+    &:hover{
+      border-color: #1E90FF;
+    }
+  }
+}
+.time{
+  width: 150px;
+}
+
+.ticket{
+  width: 87%;
+  border: 1px dotted #ccc;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size:16px;
+  .info{
+    padding-left: 20px;
+    padding-top: 10px;
+    .operation{
+      position: absolute;
+      right: 5px;
+      .edit{
+        color: blue;
+        padding-left: 5px;
+        cursor: pointer;
+      } 
+      .delete{
+        background: rgb(129, 69, 77);
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+    }
+    
+  }
+  .personInfoList{
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    left: 90px;
+    background-color: #fff;
+    box-shadow: 0 0  5px #ccc;
+    z-index: 999;
+    li{
+      width: 100%;
+      &>span:nth-child(1){
+        display: inline-block;
+        width: 30%;
+        text-align: right;
+        padding: 5px;
+      }
+    }
+    
+  }
+}
+//TimePicker
+.ant-time-picker-panel-input {
+  max-width: 136px;
+}
+.ant-time-picker-panel-select {
+  width: 75px ;
+}
+.ant-time-picker-panel-select li {
+  text-align: center ;
+  padding: 0 ;
+}
+.ant-time-picker-panel-input-wrap {
+  max-width: 152px !important;
+}
+.ant-time-picker-panel-clear-btn {
+  right: 2px;
+}

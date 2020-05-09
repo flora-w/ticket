@@ -1,0 +1,73 @@
+{
+  "code": 1,
+  "message": "",
+  "Data": {
+    "category": 1,
+      "FlowDetail":{
+              "SequenceID": "P81F001201812250001",
+              "SerialID": "P81F0012018122514184010604121",
+              "FormID": null,
+              "FormName": "普通机票申请",
+              "ApplyDateTime": "2018/12/25 下午 02:18:39",
+              "ApplyName": "黃文毅",
+              "StepName": "ADM簽核",
+              "ToBeSignedID": "<K16070438><K16070452>",
+              "ToBeSignedName": "毕一萍,孙燏勃"
+          },
+      "FormDetail": {
+              "FormID": null,
+              "SerialID": null,
+              "TravelTypeName": "離職/歸仁/轉調",
+              "Remark": "23232",
+              "OFileName": "测试.txt"
+          },
+      "TravelDetail": [
+          {
+              "Detail": [
+                  {
+                      "StartAirportID": null,
+                      "StartAirportName": "浦東",
+                      "EndAirportID": null,
+                      "EndAirportName": "虹橋",
+                      "StartDate": null,
+                      "StartTime": null,
+                      "Astart": "2018/12/21 上午 08:50:00",
+                      "EndDate": null,
+                      "EndTime": null,
+                      "Aend": "2018/12/21 上午 03:50:00",
+                      "Car": null,
+                      "PlanePrice": null,
+                      "ChangePrice": null
+                  },
+                  {
+                      "StartAirportID": null,
+                      "StartAirportName": "虹橋",
+                      "EndAirportID": null,
+                      "EndAirportName": "浦東",
+                      "StartDate": null,
+                      "StartTime": null,
+                      "Astart": "2018/12/21 上午 10:50:00",
+                      "EndDate": null,
+                      "EndTime": null,
+                      "Aend": "2018/12/21 上午 07:50:00",
+                      "Car": null,
+                      "PlanePrice": null,
+                      "ChangePrice": null
+                  }
+              ],
+              "Empno": "10604121",
+              "Chname": "黃文毅",
+              "TripType": "twoWay"
+          }
+      ],
+      "signHistory": [
+          {
+              "sSignerName": "趙璐林",
+              "sSignStepName": "ADM簽核",
+              "sSignDateTime": "2018/12/25 下午 07:47:49",
+              "sResultName": "同意",
+              "sComment": "OK"
+          }
+      ]
+  }
+}

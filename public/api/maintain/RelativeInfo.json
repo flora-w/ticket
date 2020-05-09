@@ -1,0 +1,127 @@
+{
+  "Code": 1,
+  "message": "",
+  "Data": {
+      "BaseInfo": [
+          {
+              "Empno": "9605100",
+              "ChName": "薛福安",
+              "EnName": "ANDY HSUEH",
+              "Deptcode": "KQ1000",
+              "JobName": null,
+              "HireDate": "0001-01-01T00:00:00",
+              "BirthDate": "0001-01-01T00:00:00",
+              "Sex": null,
+              "Phone": "2872",
+              "Mail": "andy_hsueh@wistron.com"
+          }
+      ],
+      "RelationShip": [
+          {
+              "Value": "夫妻"
+          },
+          {
+              "Value": "父子"
+          },
+          {
+              "Value": "父女"
+          },
+          {
+              "Value": "母子"
+          },
+          {
+              "Value": "母女"
+          }
+      ],
+      "CertType": [
+          {
+              "Value": "身份證"
+          },
+          {
+              "Value": "台胞證"
+          },
+          {
+              "Value": "護照"
+          },
+          {
+              "Value": "大陸居民往來台灣通行證"
+          },
+          {
+              "Value": "港澳通行證"
+          }
+      ],
+      "Status": "N",
+      "Table": [
+          {
+              "Detail": [
+                  {
+                      "UID": "0",
+                      "EmpNo": "9605100",
+                      "ChName": "宋瑞芬",
+                      "CertType": "台胞證",
+                      "CertNO": "215699554",
+                      "CertName": "SUNG,JUI-FEN",
+                      "CertTime": "2017-08-01T00:00:00",
+                      "SignTime": "0001-01-01T00:00:00",
+                      "TaiwanTime": "0001-01-01T00:00:00",
+                      "Source": "EFORM"
+                  },
+                  {
+                      "UID": "0",
+                      "EmpNo": "9605100",
+                      "ChName": "宋瑞芬",
+                      "CertType": "護照",
+                      "CertNO": "215699554",
+                      "CertName": "SUNG,JUI-FEN",
+                      "CertTime": "2017-09-04T00:00:00",
+                      "SignTime": "0001-01-01T00:00:00",
+                      "TaiwanTime": "0001-01-01T00:00:00",
+                      "Source": "EFORM"
+                  }
+              ],
+              "UID": "0",
+              "EmpNo": "9605100",
+              "ChName": "薛福安",
+              "FaName": "宋瑞芬",
+              "Sex": "",
+              "Ship": "夫妻",
+              "Source": "EFORM"
+          },
+          {
+              "Detail": [
+                  {
+                      "UID": "0",
+                      "EmpNo": "9605100",
+                      "ChName": "薛玥瑤",
+                      "CertType": "台胞證",
+                      "CertNO": "306124388",
+                      "CertName": "HSUEH,YUEH-YAO",
+                      "CertTime": "2017-08-01T00:00:00",
+                      "SignTime": "0001-01-01T00:00:00",
+                      "TaiwanTime": "0001-01-01T00:00:00",
+                      "Source": "EFORM"
+                  },
+                  {
+                      "UID": "0",
+                      "EmpNo": "9605100",
+                      "ChName": "薛玥瑤",
+                      "CertType": "護照",
+                      "CertNO": "306124388",
+                      "CertName": "HSUEH,YUEH-YAO",
+                      "CertTime": "2017-08-01T00:00:00",
+                      "SignTime": "0001-01-01T00:00:00",
+                      "TaiwanTime": "0001-01-01T00:00:00",
+                      "Source": "EFORM"
+                  }
+              ],
+              "UID": "0",
+              "EmpNo": "9605100",
+              "ChName": "薛福安",
+              "FaName": "薛玥瑤",
+              "Sex": "",
+              "Ship": "父女",
+              "Source": "EFORM"
+          }
+      ]
+  }
+}

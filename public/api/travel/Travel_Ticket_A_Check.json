@@ -1,0 +1,37 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "totalList": [
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 1,
+                      "RepUID": 3,
+                      "StartAirport": "浦東",
+                      "ArriveAirport": "虹橋",
+                      "FlyNo": "A2161",
+                      "FlyTime": "2018-12-21 08:50:00~2018-12-21 03:50:00",
+                      "Cost": "960",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "1",
+              "Chname": "1",
+              "Sex": "男",
+              "TripType": "twoWay"
+          }
+      ],
+      "ticket": [
+          {
+              "UniqueID": 0,
+              "OFileName": "te%,l.s,@!#$%^&()_+=st'.docx",
+              "NFileName": "T01-181225190502-1N.docx",
+              "FileSize": "0.73MB",
+              "FilePath": "E:\\Excel\\Itinerary\\T01-181225190502-1N.docx"
+          }
+      ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "Flight": "A216",
+      "FromPlace": "上海",
+      "ToPlace": "南京",
+      "WeekFly": "125",
+      "StartTime": "2018/02/02 10:00",
+      "EndTime": "2018/02/02 10:00"
+  }
+}

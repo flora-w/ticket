@@ -1,0 +1,188 @@
+@contentWidth: 1200px;
+@navItemPadding: 0 30px;
+
+/* ===============
+   头部
+   =============== */
+.header{
+  .header-top{
+    height: 105px;
+    background: url(../assets/sys_imgs/header-bg.jpg);
+    .logo{
+      width: 200px; 
+      height: 100%;
+      transform: translate(100px, 0);
+      display: block;
+    }
+    .header-content{
+      width: @contentWidth;
+      margin: 0 auto;
+      line-height: 105px;
+      h1{
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+  .header-nav{
+    height: 48px;
+    background: #1ca25b;
+    line-height: 48px;
+    min-width: 1280px;
+    box-sizing: border-box;
+    .header-nav-lists{
+      padding: 0;
+      margin: 0;
+      width: 1280px;
+      text-align: center;
+      margin: 0 auto;
+      &>li{
+        box-sizing: border-box;
+        float: left;
+        height: 100%;
+        position: relative;
+        &:before{
+          position: absolute;
+          content: '';
+          width: 1px;
+          height: 30px;
+          right: 0;
+          top:9px;
+          background-color: #27b46b;
+        }    
+        &>a{
+          padding: @navItemPadding;
+          color: #fff;
+          // border-right: 1px solid #27b46b;    
+          &:hover{
+            color: #fff000;
+          }
+        }
+        &:first-child>a{
+          border-left: none;
+        }
+        .header-submenu-container{
+          position: absolute;
+          width: 100%;
+          z-index: 999;
+          padding-top: 3px;
+          transition: 1s;
+          .header-submenu{
+            width: 100%;
+            background: #1ca25b;
+            transition: 1s;
+            box-shadow: 0 0 10px rgba(0,0,0, .5);
+            a{
+              display: block;
+              width: 100%;
+              color: #fff;
+              // padding: 0 7px;
+              li{
+                border-bottom: 1px solid #27b46b;
+              }
+              &:hover{
+                color: #fff000;
+              }
+            }
+            
+          } 
+        }
+        
+      }   
+    }
+    .user-login1{
+      float: right;
+      margin-right: 130px;
+      color: #fff;
+    }
+    .user-login2{
+      float: right;
+      margin-right: 130px;
+      .avatar{
+        vertical-align: middle;
+        background-color: #87d068;
+      }
+      .name{
+        color: #fff;
+        vertical-align: middle;
+      }
+      .icon{
+        font-size: 10px;
+        vertical-align: middle;
+      }     
+    }
+  }
+}
+
+/* ===============
+   主体
+   =============== */
+.main{
+  padding-top: 10px;
+  width: @contentWidth;
+  min-height: 650px;
+  margin: 0 auto;
+  .detail-content{
+    .left-content{
+      .title{
+        height: 60px;
+        background: #1ca25b;
+        color: #fff;
+        font-size: 20px;
+        line-height: 60px;
+        padding-left: 20px;
+        i{
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          vertical-align: middle;
+          border-radius: 50%;
+          background: #fff;
+          margin-right: 10px;
+          position: relative;
+          svg{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+          }
+        }
+      }
+      .left-nav{
+        margin-top: 10px;
+        a{
+          li{
+            height: 40px;
+            line-height: 40px;
+            background: #f3f3f3;
+            padding: 0 10px;
+            transition: .5s;
+            margin-bottom: 3px;
+            &:hover{
+              background: #1ca25b;
+              padding-left: 20px;
+              color: #fff;
+            }
+            .titleNav{
+              padding-left: 10px;
+            }
+          }
+        }
+        .leftnav-active li{
+          background: #1ca25b;
+          color: #fff;
+        }
+        
+      }
+    }
+  }
+  
+}
+
+.footer{
+  height: 100px;
+  min-width: 1280px;
+  background: #1ca25b;
+}

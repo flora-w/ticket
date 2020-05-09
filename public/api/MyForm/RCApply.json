@@ -1,0 +1,38 @@
+{
+    "code": 1,
+    "message": "OK",
+    "Data": {
+        "TravelDetail": [
+            {
+                "Detail": [],
+                "Price": [
+                   
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 3,
+                        "StartAirport": "松山",
+                        "ArriveAirport": "台中",
+                        "FlyNo": "12",
+                        "FlyTime": "2019/3/4 上午 09:23:00",
+                        "Cost": 500,
+                        "ClassType": null
+                    },
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 4,
+                        "StartAirport": "台中",
+                        "ArriveAirport": "松山",
+                        "FlyNo": "21",
+                        "FlyTime": "2019/3/4 上午 09:23:00",
+                        "Cost": 700,
+                        "ClassType": null
+                    }
+                ],
+                "Empno": "K16070452",
+                "Chname": "孙燏勃",
+                "Sex": null,
+                "TripType": "twoWay"
+            }
+        ]
+    }
+}

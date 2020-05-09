@@ -1,0 +1,83 @@
+.apply-form-SpecialApply{
+    background: #fff;
+ .row-person-info{
+    background: #fff;
+    padding: 20px 0;
+ }   
+}
+.apply-form-SpecialApply {
+   & label {
+     margin-right: 20px;
+     font-size: 16px;
+   }
+   & .ant-row {
+     margin-bottom: 20px;
+   }
+   & .time {
+     width: 150px;
+   }
+   & .form-title {
+     text-align: center;
+   }
+   & .items {
+     margin-left: -40px;
+   }
+   .ant-radio-button-wrapper {
+     margin-right: 0;
+   }
+   & .items{
+     margin-bottom: 40px;
+     position: relative;
+     .line-kuang{
+       width: 75%;
+       height: 100px;
+       position: absolute;
+       left: 100px;
+       top: -10px;
+        border: 1px solid #1E90FF;
+        .xuhao{
+          position: absolute;
+          color: #fff;
+          width: 20px;
+          height: 20px;
+          background: #1E90FF;
+          left: -20px;
+          text-align: center;
+        }
+        .close{
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          z-index: 999;
+          position: absolute;
+          top: 5px;
+          right: 8px;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover{
+           transform: rotate(360deg)
+          }
+        }
+     }
+   }
+   & .ant-select {
+     width: 200px;
+   }
+ }
+ .ant-time-picker-panel-input {
+   max-width: 136px;
+ }
+ .ant-time-picker-panel-select {
+   width: 75px;
+ }
+ .ant-time-picker-panel-select li {
+   text-align: center ;
+   padding: 0 ;
+ }
+ .ant-time-picker-panel-input-wrap {
+   max-width: 154px !important;
+ }
+ .ant-time-picker-panel-clear-btn {
+   right: 2px;
+ }

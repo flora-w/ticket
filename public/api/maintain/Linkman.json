@@ -1,0 +1,81 @@
+{
+  "Code": 1,
+  "message": "",
+  "Data": {
+      "BaseInfo": [
+          {
+              "Empno": "9605100",
+              "ChName": "薛福安",
+              "EnName": "ANDY HSUEH",
+              "Deptcode": "KQ1000",
+              "JobName": null,
+              "HireDate": null,
+              "BirthDate": null,
+              "Sex": null,
+              "Phone": "2872",
+              "Mail": "andy_hsueh@wistron.com"
+          }
+      ],
+      "Country": [
+          {
+              "Value": "中國"
+          },
+          {
+              "Value": "美國"
+          },
+          {
+              "Value": "英國"
+          },
+          {
+              "Value": "菲律賓"
+          }
+      ],
+      "CertType": [
+          {
+              "Value": "身份證"
+          },
+          {
+              "Value": "台胞證"
+          },
+          {
+              "Value": "護照"
+          },
+          {
+              "Value": "大陸居民往來台灣通行證"
+          },
+          {
+              "Value": "港澳通行證"
+          }
+      ],
+      "Link": [
+          {
+              "UniqueID": "1",
+              "EmpNo": "9605100",
+              "ChName": "薛福安",
+              "LinkEmpNo": "K16070438",
+              "LinkChName": "孙燏1勃",
+              "Country": "中國",
+              "CertType": "身份證",
+              "CertNO": "610323199312074718",
+              "CertName": "sunyubo",
+              "CertTime": null,
+              "SignTime": null,
+              "TaiwanTime": null
+          },
+          {
+              "UniqueID": "2",
+              "EmpNo": "9605100",
+              "ChName": "薛福安",
+              "LinkEmpNo": "K160704521",
+              "LinkChName": "孙燏勃",
+              "Country": "中國",
+              "CertType": "身份證",
+              "CertNO": "610323199312074718",
+              "CertName": "sunyubo",
+              "CertTime": null,
+              "SignTime": null,
+              "TaiwanTime": null
+          }
+      ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "code": 1, 
+  "message": "", 
+  "data": [
+      {
+          "Empno": "10004048", 
+          "Chname": "黃啟達", 
+          "TripType": "twoWay", 
+          "Detail": [
+              {
+                  "UniqueID": 1, 
+                  "RepUID": 3, 
+                  "StartAirport": "浦東", 
+                  "ArriveAirport": "虹橋", 
+                  "FlyNo": "A216", 
+                  "FlyTime": "2018-12-21 08:50:00~2018-12-21 03:50:00", 
+                  "Cost": "960", 
+                  "ClassType": "經濟艙", 
+                  "ISBID": null
+              }, 
+              {
+                  "UniqueID": 2, 
+                  "RepUID": 4, 
+                  "StartAirport": "虹橋", 
+                  "ArriveAirport": "浦東", 
+                  "FlyNo": "A216", 
+                  "FlyTime": "2018-12-21 10:50:00~2018-12-21 07:50:00", 
+                  "Cost": "960", 
+                  "ClassType": "經濟艙", 
+                  "ISBID": null
+              }
+          ]
+      }
+  ]
+}

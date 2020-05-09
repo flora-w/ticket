@@ -1,0 +1,52 @@
+{
+    "code": 1,
+    "message": "",
+    "Data": {
+        "FlowDetail": {
+            "SequenceID": "P81F007201901220001",
+            "SerialID": "P81F0072019011716365210604121",
+            "FormID": null,
+            "FormName": "退改簽",
+            "ApplyDateTime": "2019/1/22 上午 09:20:59",
+            "ApplyName": "黃文毅",
+            "StepName": "退改簽已出票",
+            "ToBeSignedID": null,
+            "ToBeSignedName": null
+        },
+        "FormDetail": {
+            "FormID": null,
+            "SerialID": null,
+            "Type": null,
+            "TypeName": "退票",
+            "Remark": "123",
+            "AllMoney": "120.0000"
+        },
+        "ORepDetail": [
+            {
+                "Detail": [
+                    {
+                        "UniqueID": 0,
+                        "StartAirportID": null,
+                        "StartAirportName": "虹橋",
+                        "EndAirportID": null,
+                        "EndAirportName": "松山",
+                        "StartDate": null,
+                        "StartTime": null,
+                        "Astart": "2019/1/15 上午 09:31:00",
+                        "EndDate": null,
+                        "EndTime": null,
+                        "Aend": "2019/1/16 上午 08:26:00",
+                        "Car": null,
+                        "PlanePrice": "960.0000",
+                        "ChangePrice": null,
+                        "ReturnPrice": null
+                    }
+                ],
+                "Price": [],
+                "Empno": "10604121",
+                "Chname": "黃文毅",
+                "TripType": "oneWay"
+            }
+        ]
+    }
+}

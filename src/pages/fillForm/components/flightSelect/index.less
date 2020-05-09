@@ -1,0 +1,166 @@
+.flight-container{
+.flight{
+  position: relative;
+  .flight-one-11{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    &>div{
+      width: 100%;
+    }
+  }
+  .flight-one-switcher{
+    width: 20px;
+    height: 52px;
+    position:  absolute;
+    top: 22px;
+    right: -21px;
+    border: 1px solid #ddd;
+    border-left: none;
+    span{
+      position: absolute;
+      right: -9px;
+      top: 10px;
+      color: #999;
+      padding: 0 2px;
+      background: #ddd;
+      cursor: pointer;
+      &:hover{
+        background: rgb(44, 247, 18);
+        color: #fff;
+      }
+    }
+  }
+  .flight-one-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+  }
+
+  .time-from-to-title{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    flex-direction: row-reverse;
+  }
+  .time-from-to-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    flex-direction: row-reverse;
+  }
+  .manyWay{
+      .content{
+        position: relative;
+        .order{
+          color: #fff;
+          padding: 1px 3px;
+          position: absolute;
+          background: #1E90FF;
+          top: 0;
+          left: 80px;
+        }
+        .close{
+          position: absolute;
+          top: 15px;
+          right: 10px;
+          cursor: pointer;
+          transition: .5s;
+          &:hover{
+            transform: rotate(360deg);
+          }
+        }
+        .content-info{
+          border: 1px solid #1E90FF;
+          height: 100px;
+          padding-left: 10px;
+          // width: 800px;
+          margin-bottom: 10px;
+        }
+      }
+    .add{
+      padding: 5px 10px;
+      margin-top: 10px;
+      color: #1E90FF;
+      border: 1px dotted #ccc;
+      cursor: pointer;
+      &:hover{
+        border-color: #1E90FF;
+      }
+    }
+  }
+  .car-need{
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+}
+.customer{
+  width: 100%;
+}
+
+.row{
+  padding: 10px 0;
+  .assistant-titile{
+    text-align: right;
+    margin-top: 4px;
+    .request-star{
+      color: red;
+    }
+  }
+}
+
+}
+
+.ticket{
+  width: 80%;
+  border: 1px dotted #ccc;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  .info{
+    padding-left: 20px;
+    padding-top: 10px;
+    .operation{
+      position: absolute;
+      right: 5px;
+      .edit{
+        color: blue;
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      .delete{
+        background: rgb(129, 69, 77);
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+    }
+    
+  }
+  .personInfoList{
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    left: 90px;
+    background-color: #fff;
+    box-shadow: 0 0  5px #ccc;
+    z-index: 999;
+    li{
+      width: 100%;
+      &>span:nth-child(1){
+        display: inline-block;
+        width: 30%;
+        text-align: right;
+        padding: 5px;
+      }
+    }
+    
+  }
+}
+

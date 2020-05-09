@@ -1,0 +1,61 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "head": {
+          "SequenceID": "P81F001201901150001",
+          "SerialID": null,
+          "Name": "普通机票申请",
+          "ApplyDatetime": null,
+          "Status": null,
+          "Place": "大陸",
+          "Remark": "test",
+          "QuoteTime": null,
+          "TicketTime": null,
+          "QuotedNum": null,
+          "issubmit": null
+      },
+      "record": [
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 3,
+                      "RepUID": 1,
+                      "StartAirport": "虹橋",
+                      "ArriveAirport": "松山",
+                      "FlyNo": "A216",
+                      "FlyTime": "2019-01-15 09:31:00~2019-01-16 08:26:00",
+                      "Cost": "960",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "10604121",
+              "Chname": "黃文毅",
+              "Sex": "男",
+              "TripType": "oneWay"
+          },
+          {
+              "Detail": [],
+              "Price": [
+                  {
+                      "UniqueID": 4,
+                      "RepUID": 4,
+                      "StartAirport": "桃園",
+                      "ArriveAirport": "台中",
+                      "FlyNo": "A343",
+                      "FlyTime": "2019-01-21 06:06:00~2019-01-21 11:10:00",
+                      "Cost": "1360",
+                      "ClassType": "經濟艙",
+                      "ISBID": null
+                  }
+              ],
+              "Empno": "10604121-2",
+              "Chname": "黃煜恆",
+              "Sex": "男",
+              "TripType": "oneWay"
+          }
+      ]
+  }
+}

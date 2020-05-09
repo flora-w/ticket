@@ -1,0 +1,46 @@
+{
+  "code": 1, 
+  "message": "", 
+  "data": [
+      {
+          "Empno": "10004048", 
+          "Chname": "黃啟達", 
+          "TripType": "twoWay", 
+          "Detail": [
+              {
+                  "UniqueID": 5,
+                  "StartAirportID": "P001", 
+                  "StartAirportName": "浦東", 
+                  "EndAirportID": "P002", 
+                  "EndAirportName": "虹橋", 
+                  "StartDate": "2018-12-21", 
+                  "StartTime": "08:50", 
+                  "Astart": "2018/12/21 08:50:00", 
+                  "EndDate": "2018-12-21", 
+                  "EndTime": "15:50", 
+                  "Aend": "2018/12/21 03:50:00", 
+                  "Car": "N", 
+                  "PlanePrice": null, 
+                  "ChangePrice": null
+              }, 
+              {
+                  "UniqueID": 6,
+                  "StartAirportID": "P002", 
+                  "StartAirportName": "虹橋", 
+                  "EndAirportID": "P001", 
+                  "EndAirportName": "浦東", 
+                  "StartDate": "2018-12-21", 
+                  "StartTime": "10:50", 
+                  "Astart": "2018/12/21 10:50:00", 
+                  "EndDate": "2018-12-21", 
+                  "EndTime": "19:50", 
+                  "Aend": "2018/12/21 19:50:00", 
+                  "Car": "N", 
+                  "PlanePrice": null, 
+                  "ChangePrice": null
+              }
+          ],
+          "Price": []
+      }
+  ]
+}

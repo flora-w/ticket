@@ -1,0 +1,98 @@
+{
+  "code": 1,
+  "message": "",
+  "data": {
+      "Hobby": [
+          {
+              "UniqueID": 1,
+              "Empno": "9605100",
+              "Chname": "薛福安",
+              "Country": "美國",
+              "SeatType": "靠過道",
+              "FoodType": "兒童餐",
+              "Remark": "211"
+          }
+      ],
+      "CertInfo": [
+          {
+              "UID": "0",
+              "EmpNo": "9605100 ",
+              "ChName": "薛福安",
+              "CertType": "台胞證",
+              "CertNO": "306822565",
+              "CertName": "HSUEH FU AN",
+              "CertTime": "2018-03-06T00:00:00",
+              "SignTime": null,
+              "TaiwanTime": null,
+              "Source": "EFORM"
+          },
+          {
+              "UID": "0",
+              "EmpNo": "9605100 ",
+              "ChName": "薛福安",
+              "CertType": "護照",
+              "CertNO": "306822565",
+              "CertName": "HSUEH FU AN",
+              "CertTime": "2023-01-24T00:00:00",
+              "SignTime": null,
+              "TaiwanTime": null,
+              "Source": "EFORM"
+          },
+          {
+              "UID": "6",
+              "EmpNo": "9605100",
+              "ChName": "薛福安",
+              "CertType": "身份證",
+              "CertNO": "31313",
+              "CertName": null,
+              "CertTime": "2018-12-25T00:00:00",
+              "SignTime": null,
+              "TaiwanTime": null,
+              "Source": "Maintain"
+          }
+      ],
+      "VIPCard": [
+          {
+              "UniqueID": 9,
+              "Empno": "9605100",
+              "Chname": "薛福安",
+              "Airlineid": "MU",
+              "Airlinename": "東方航空",
+              "CardNo": "23123123"
+          },
+          {
+              "UniqueID": 10,
+              "Empno": "9605100",
+              "Chname": "薛福安",
+              "Airlineid": "BR",
+              "Airlinename": "長榮航空",
+              "CardNo": "213213"
+          },
+          {
+              "UniqueID": 11,
+              "Empno": "9605100",
+              "Chname": "薛福安",
+              "Airlineid": "CI",
+              "Airlinename": "中華航空",
+              "CardNo": "1312"
+          }
+      ],
+      "Berth": [
+          {
+              "Value": "經濟艙"
+          },
+          {
+              "Value": "超級經濟艙"
+          },
+          {
+              "Value": "菁英艙"
+          },
+          {
+              "Value": "商務艙"
+          },
+          {
+              "Value": "頭等艙"
+          }
+      ]
+  }
+}

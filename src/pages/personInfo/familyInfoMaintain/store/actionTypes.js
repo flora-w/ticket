@@ -1,0 +1,14 @@
+export const PAGE_DATA = 'familyInfoMaintain/PAGE_DATA';
+export const AREA_DATA = 'familyInfoMaintain/AREA_DATA';
+export const ADD_COMPANY_AND_CARD = 'familyInfoMaintain/ADD_COMPANY_AND_CARD';
+export const DEL_COMPANY_CARD = 'familyInfoMaintain/DEL_COMPANY_CARD';
+export const SITE_CHANGE = 'familyInfoMaintain/SITE_CHANGE';
+export const HOBBY_CHANGE = 'familyInfoMaintain/HOBBY_CHANGE';
+export const REMARK_CHANGE = 'familyInfoMaintain/REMARK_CHANGE';
+export const CARD_NEW_ADD = 'familyInfoMaintain/CARD_NEW_ADD';
+export const FAMILY_CHANGE = 'familyInfoMaintain/FAMILY_CHANGE';
+export const ADD_CARD_INFO1 = 'familyInfoMaintain/ADD_CARD_INFO1';
+export const EDIT = 'familyInfoMaintain/EDIT';
+export const SHOW_MODAL = 'familyInfoMaintain/SHOW_MODAL';
+export const HIDDEN_MODAL = 'familyInfoMaintain/HIDDEN_MODAL';
+export const FAMILY_AUTHORITY = 'familyInfoMaintain/family_authority';

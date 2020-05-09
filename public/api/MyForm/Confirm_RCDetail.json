@@ -1,0 +1,49 @@
+{
+    "code": 1,
+    "message": "OK",
+    "Data": {
+        "SerialID":"P81F0012019011519144810604121",
+        "TravelDetail": [
+            {
+                "Detail": [],
+                "Price": [
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 2,
+                        "StartAirport": "松山",
+                        "ArriveAirport": "高雄",
+                        "FlyNo": "FU888",
+                        "FlyTime": "2019/1/24 下午 04:52:27",
+                        "Cost": "1800.0000",
+                        "ClassType": null,
+                        "ISBID": null
+                    }
+                ],
+                "Empno": "10604121",
+                "Chname": "黃文毅",
+                "TripType": "twoWay"
+            }
+        ],
+        "newtotalList": [
+            {
+                "Detail": [],
+                "Price": [
+                    {
+                        "UniqueID": 0,
+                        "RepUID": 2,
+                        "StartAirport": "松山",
+                        "ArriveAirport": "高雄",
+                        "FlyNo": null,
+                        "FlyTime": null,
+                        "Cost": null,
+                        "ClassType": null,
+                        "ISBID": null
+                    }
+                ],
+                "Empno": "10604121",
+                "Chname": "黃文毅",
+                "TripType": "twoWay"
+            }
+        ]
+    }
+}

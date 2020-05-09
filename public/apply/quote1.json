@@ -1,0 +1,9 @@
+{
+    "code": 1,
+    "message": "",
+    "data": [
+      {"sequenceId": "P81F001001554", "fillFormName": "普通申請", "fillInDate": "2018-08-12", "offerDeadline": "2018-08-12 17:00", "offerBegin": "開始報價"},
+      {"sequenceId": "P81F001001555", "fillFormName": "助理申請", "fillInDate": "2018-08-12", "offerDeadline": "2018-08-12 18:00", "offerBegin": "開始報價"}
+      
+    ]
+  }
